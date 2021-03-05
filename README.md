@@ -1,6 +1,6 @@
-# Tinder-Sever
+# Tinder-Server
 
-Tinder-Sever for Tinder Clone
+Tinder-Server for Tinder Clone
 
 # Please add config folder in root and then default.json file into the config folder.
 
