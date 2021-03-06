@@ -1,6 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import config from "config";
+import Cors from "cors";
 import Cards from "./cards/dbCards.js";
 
 // App Config
@@ -8,6 +9,8 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 // Middlewares
+app.use(express.json());
+app.use(Cors());
 
 // DB Config
 const db = config.get("mongoURI");
